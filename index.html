@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Business Name - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to [Your Business Name]</h1>
+        <p>Your trusted slaughterhouse service for premium meat processing.</p>
+        <!-- Add Image of Your Facility Here -->
+        <img src="images/facility.jpg" alt="Slaughterhouse Facility">
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>[Your Business Name] has been providing top-quality slaughtering services since [Year]. We adhere to the highest standards of hygiene, safety, and animal welfare in our operations.</p>
+        <p>Our mission is to offer consistent, reliable meat processing services while ensuring the best quality products for our customers.</p>
+        <!-- Add Image of Staff or Operations Here -->
+        <img src="images/about-us.jpg" alt="Our Team">
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <h3>Meat Processing</h3>
+        <p>We offer comprehensive meat processing services for [beef/pork/lamb/etc.], ensuring quality from start to finish.</p>
+
+        <h3>Custom Orders</h3>
+        <p>We can tailor our services to meet your specific needs, whether it's custom cuts or special processing requests.</p>
+
+        <h3>Packaging</h3>
+        <p>We provide expert packaging for all your products, ensuring freshness and safety during transportation.</p>
+        
+        <!-- Add Image of Services or Equipment Here -->
+        <img src="images/services.jpg" alt="Processing Equipment">
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <p>Take a look at our facilities and operations:</p>
+        <div class="gallery">
+            <img src="images/gallery1.jpg" alt="Facility 1">
+            <img src="images/gallery2.jpg" alt="Facility 2">
+            <img src="images/gallery3.jpg" alt="Processing Line">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like more information, feel free to reach out to us!</p>
+        <address>
+            <p>Address: [Your Business Address]</p>
+            <p>Phone: [Your Phone Number]</p>
+            <p>Email: [Your Email Address]</p>
+        </address>
+
+        <form action="[form-handler]" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <!-- Add Map Image or Embedded Map Here -->
+        <iframe src="[Google Maps Embed URL]" width="600" height="450"></iframe>
+    </section>
+
+    <footer>
+        <p>&copy; [Year] [Your Business Name]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+<!-- CSS: styles.css -->
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+</style>
